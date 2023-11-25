@@ -1,4 +1,4 @@
-package org.example;
+package kyrj.lab4;
 
 import java.util.*;
 
