@@ -13,12 +13,12 @@ public class SolutionTest {
 
     @Before
     public void setUp() throws Exception {
-        System.out.println("@BeforeEach，测试开始");
+        System.out.println("@BeforeEach，测试开始 - jenkins");
     }
 
     @After
     public void tearDown() throws Exception {
-        System.out.println("@AfterEach，测试结束");
+        System.out.println("@AfterEach，测试结束 - jenkins");
     }
 
     @Test
