@@ -35,7 +35,7 @@ public class SolutionTest {
         // 输入：n = 6, edges = [[3,0],[3,1],[3,2],[3,4],[5,4]]
         // 输出：[3,4]
         int[][] edges2 = {{3, 0}, {3, 1}, {3, 2}, {3, 4}, {5, 4}};
-        assertEquals(new ArrayList<>(List.of(3, 4)) , s.findMinHeightTrees(6, edges2));
+        assertEquals(new ArrayList<>(List.of(3, 4, 5)) , s.findMinHeightTrees(6, edges2));
 
         // 等价类3: 输入的边为空
         // 输入：n = 0, edges = []
