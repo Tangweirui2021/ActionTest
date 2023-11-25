@@ -28,6 +28,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           method: 'squash'
+          labels: '[ "auto", "auto_merge" ]'
           title: 'auto merge'
           message: 'auto merge'
       - name: result
